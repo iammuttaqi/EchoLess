@@ -9,7 +9,7 @@ interface VisualizerProps {
 
 const Visualizer: React.FC<VisualizerProps> = ({ analyser, mode, isListening }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | null>(null);
 
   const draw = () => {
     const canvas = canvasRef.current;
