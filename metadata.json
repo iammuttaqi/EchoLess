@@ -1,0 +1,7 @@
+{
+  "name": "EchoLess - Low Latency Audio Monitor",
+  "description": "Real-time audio monitoring application with minimal latency, visual feedback, and customizable audio settings.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
